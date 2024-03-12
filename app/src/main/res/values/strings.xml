@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">something</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile_image_description">Profile image</string>
+    <string name="navigation_menu">네비게이션 메뉴</string>
+</resources>

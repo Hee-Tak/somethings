@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/main_manu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_search"/>
+
+    <item
+        android:id="@+id/title_home"
+        android:title="Title_Home"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_slideshow"/>
+
+    <item
+        android:id="@+id/entire_menu"
+        android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_manage" />
+</menu>

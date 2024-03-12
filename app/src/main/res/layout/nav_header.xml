@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!-- 프로필 이미지 또는 아이콘 -->
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="center"
+        android:contentDescription="@string/profile_image_description"
+        app:menu="@menu/nav_menu"/>
+
+    <!-- 사용자 이름 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용자 이름"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- 사용자 이메일 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user@example.com"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
