@@ -35,6 +35,14 @@
 
         </androidx.appcompat.widget.Toolbar>
 
+        <!-- 프래그먼트를 표시할 컨테이너 -->
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_above="@id/nav_view"/>
+
         <!-- 나머지 레이아웃 요소들을 추가 -->
 
 

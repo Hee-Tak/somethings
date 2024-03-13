@@ -1,0 +1,30 @@
+<!-- res/layout/stream_item.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="streamItem"
+            type="com.tak.something.data.StreamItem" />
+    </data>
+
+    <!-- 나머지 레이아웃 내용 -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 예시 : titleTextView -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{streamItem.title}"/>
+
+        <!-- 기타 뷰들 추가 -->
+
+    </RelativeLayout>
+
+</layout>

@@ -5,5 +5,5 @@ import retrofit2.http.GET
 interface ApiService {
 
     @GET("items")
-    suspend fun getItems(): List<Item>
+    suspend fun getItems(): List<StreamItem>
 }
