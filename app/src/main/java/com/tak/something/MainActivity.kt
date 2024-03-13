@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout: DrawerLayout
     private lateinit var navView: NavigationView
 
-    private lateinit var recyclerView: RecyclerView
-    private var streamList: List<StreamItem> = listOf() // API 에서 받아온 데이터로 초기화
+    //private lateinit var recyclerView: RecyclerView
+    //private var streamList: List<StreamItem> = listOf() // API 에서 받아온 데이터로 초기화
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
