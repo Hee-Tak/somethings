@@ -47,11 +47,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
-
-
-
         drawerLayout = binding.drawerLayout
         navView = binding.navView
         //val toggle = ActionBarDrawerToggle(
@@ -85,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
+        //화면만드는거 뒤로 미뤄두고 네이버 로그인이랑 api 갖다대는거 해보기
 
 
 
