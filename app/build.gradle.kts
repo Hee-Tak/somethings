@@ -62,4 +62,11 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
 
+
+    //네이버 로그인
+    implementation("com.navercorp.nid:oauth-jdk8:5.9.0") // jdk 8
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")        //코루틴 쓸라는건가
+
+
 }

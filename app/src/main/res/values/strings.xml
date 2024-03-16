@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="profile_image_description">Profile image</string>
     <string name="navigation_menu">네비게이션 메뉴</string>
+
+    <string name="social_login_info_naver_client_id">ID_KEY</string>
+    <string name="social_login_info_naver_client_secret">SECRET_KEY</string>
+    <string name="social_login_info_naver_client_name">네이버아이디 로그인</string>
 </resources>
