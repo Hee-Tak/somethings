@@ -122,7 +122,7 @@ class NaverLogin : AppCompatActivity() {
      * 연동을 해제하면 클라이언트에 저장된 토큰과 서버에 저장된 토큰이 모두 삭제됩니다.
      */
     private fun startNaverDeleteToken(){
-        NidOAuthLogin().callDeleteTokenApi(this, object : OAuthLoginCallback{
+        NidOAuthLogin().callDeleteTokenApi(object : OAuthLoginCallback {
             override fun onSuccess() {
                 //서버에서 토큰 삭제에 성공한 상태입니다.
                 setLayoutState(false)
